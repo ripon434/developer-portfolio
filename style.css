@@ -1,47 +1,89 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0%;
-}
-
-h1 {
-    font-size: 50px;
-}
-
-.orenge-color {
-    color: orangered;
-    margin-bottom: 400px;
-}
-
-section {
-    display: flex;
-}
-
-.half-width {
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-}
-
-.half-width {
-    width: 80%;
-}
-
-.link-button {
-    background-image: linear-gradient(orange, tomato);
-    color: white;
-    font-weight: 400;
-    padding: 10px 20px;
-    border-radius: 10px;
-}
-
-.top-banner {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
-
-.dream-big {
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0%;
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    .orenge-color {
+        color: orangered;
+        margin-bottom: 400px;
+    }
+    
+    .flexible-container {
+        display: flex;
+        margin-bottom: 100px;
+    }
+    
+    .half-width {
+        width: 80%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
+    }
+    
+    .link-button {
+        background-image: linear-gradient(orange, tomato);
+        color: white;
+        font-weight: 400;
+        padding: 10px 20px;
+        border-radius: 50px;
+    }
+    
+    section {
+        height: 500px;
+        padding-bottom: 150px;
+    }
+    
+    .exparience-area {
+        background-image: url(images/exp-bg.png);
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    
+    .exparieance-item {
+        box-shadow: 10px 10px 10px 10px rgba(224, 15, 15, 0.2);
+        width: 500px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 30px;
+        border-radius: 40px;
+    }
+    
+    #web-developer {
+        border-left: 7px solid;
+        border-image-slice: 7 12 14 5;
+        border-image: linear-gradient(30deg, #4d9f0c, #9198e5, #4d9f0c 20px) 60;
+    }
+    
+    #full-developer {
+        border-left: 7px solid;
+        border-image-slice: 7 12 14 5;
+        border-image: linear-gradient(hsl(22, 91%, 60%), #4d9f0c) 30;
+    }
+    
+    .top-banner {
+        background-image: url(images/top-banner.png);
+        background-repeat: no-repeat;
+        background: right;
+    }
+    
+    .dream-big {
+        background-image: url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    
+    .one {
+        color: orangered;
+    }
+    
+    footer p {
+        text-align: center;
+    }
